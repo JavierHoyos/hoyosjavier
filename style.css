@@ -11,3 +11,16 @@ body{
 img{
     max-width: 100%;
 }
+
+h1{
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.section-title{
+    color: #87629A;
+}
+
+.btn{
+    display: inline-block;
+}
