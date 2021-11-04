@@ -183,3 +183,31 @@ header {
 .web{
     padding-bottom: 1.875em;
 }
+
+
+*main*/  /*que hago*/
+
+.heading-title{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    margin-top: 2.25em;
+    margin-bottom: 1.85em;
+}
+
+
+.element-widget{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color:#95a5a6;
+}
+
+
+
+.icons img{
+
+    margin-top: 0.875em;
+    width: 5em;
+    height: 2.5em;
+}
