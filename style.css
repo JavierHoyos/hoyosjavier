@@ -23,4 +23,132 @@ h1{
 
 .btn{
     display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: #23424A;
+    font-weight: 900;
+    background-color: #38CFD9;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+
+.btn:hover,
+.btn:focus {
+    opacity: .75; 
+}
+
+
+/* navigation*/
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /* added for nav-toggle positioning */
+    position: relative;
+}
+
+header {
+    background:#2980b9 ;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+}
+
+.row-nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 1.4em;
+}
+
+.menu ul li{
+    padding: 0.938em;
+    color: #fff;
+    border: 1px solid #12CBC4;
+    margin: 0.5em;
+}
+
+.menu ul li:hover{
+    background-color: #57606f;
+    color: #12cbc4;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    background: #072A2D;
+    color: white;
+    transition: opacity 250ms ease;
+    
+    position: absolute;
+    left: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: .75;
+}
+
+.hamburger {
+    width: 50%;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+/* made changes 
+ to make it more accessible. */
+
+
+.nav {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+}
+
+.nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
+} 
+
+
+.logo {
+    height: 30px;
 }
