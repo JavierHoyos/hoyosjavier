@@ -468,3 +468,13 @@ header {
         width: 350px;
     } 
 }
+
+
+@media (max-width: 829px){
+    .row-portfolio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
