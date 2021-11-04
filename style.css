@@ -478,3 +478,48 @@ header {
         align-items: center;
     }
 }
+
+
+@media (min-width: 1024px){
+    .row-portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .row-main-do{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row-heading h2{
+    text-align: start;
+    }
+
+
+    .element-widget p{
+        font-size: 2rem;
+    }
+
+    .site-footer p{
+        font-size: 2.5rem;
+    }
+
+    .maquetador-web{
+        font-size: 2rem;
+    }
+
+    .modelador-3d{
+        font-size: 2rem;
+    }
+
+    .littleaboutmyself{
+        font-size: 2rem;
+    }
+
+    .hobbies{
+        font-size: 2rem;
+    }
+}
