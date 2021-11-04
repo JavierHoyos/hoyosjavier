@@ -691,4 +691,13 @@ header {
     color:#95a5a6;
 }
 
+/*servicios*/
+
+.page-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f6fa;
+}
+
 
