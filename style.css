@@ -700,4 +700,56 @@ header {
     background-color: #f5f6fa;
 }
 
+/*navigation mobile*/
+
+.nav{
+    text-align: center;
+    width: 100%;
+}
+
+.nav--visible{
+    visibility: visible;
+    height: auto;
+    position: relative;
+}
+
+.logo{
+    height: 30px;
+}
+
+.nav-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: justify;
+}
+
+.nav__list--primary{
+    margin-bottom: 2em;
+}
+
+.nav__item{
+    margin-top: .75em;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav__link{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav__link--button{
+    padding: .25em .75em;
+    background-color: #fff;
+    color: #23424A;
+    border-radius: 100px;
+}
+
+.nav__link:hover,
+.nav__link:focus{
+    opacity: .65;
+}
+
 
