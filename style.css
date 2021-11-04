@@ -257,3 +257,111 @@ header {
 .site-footer{
     text-align: center;
 }
+
+
+@media(min-width: 320px){
+    .icons-1 img{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+    }
+
+    .icons-2 img{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+    }
+
+    .icons-3 img{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+    }
+
+
+    .row-heading h2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .row-title h2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .row-web h2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .row-heading-app h2{
+        display: flex ;
+        justify-content: center;
+    }
+
+
+    .row-portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .row-myself .learning-more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row-experience .maquetador-web{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maquetador-web p{
+        max-width: 480px;
+        text-align: justify;
+    }
+
+    .row-experience .modelador-3d{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modelador-3d p{
+        max-width: 480px;
+        text-align: justify;
+    }
+
+    .row-experience .littleaboutmyself{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .littleaboutmyself p{
+        max-width: 480px ;
+        text-align: justify;
+    }
+
+    .row-experience .hobbies{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hobbies p{
+        max-width: 480px;
+        text-align: justify;
+    }
+
+    .hobbies h2{
+        text-align: center;
+    }
+}
