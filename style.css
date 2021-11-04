@@ -673,4 +673,22 @@ header {
     
 }
 
+/*hobbies*/
+
+
+
+.hobbies h2{
+    font-size: 35px; /*2.188rem*/
+    margin-top: 2em;
+}
+
+
+.hobbies p{
+    margin-bottom: 1.875em;
+    text-align: center;
+    margin-left: 0.938em;
+    margin-right: 0.938em;
+    color:#95a5a6;
+}
+
 
