@@ -570,3 +570,18 @@ header {
     margin-right: 1.125em;
     text-align: justify;
 }
+
+/*modelador-3D*/
+
+.modelador-3d h2{
+    margin-top: 1.125em;
+    margin-bottom: 1.125em;
+    margin-left: 0.625em;
+}
+
+.modelador-3d p{
+    margin-left: 1.125em;
+    margin-right: 1.125em;
+    text-align: justify;
+}
+
