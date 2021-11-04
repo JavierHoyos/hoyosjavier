@@ -585,3 +585,19 @@ header {
     text-align: justify;
 }
 
+
+/*littleaboutmyself*/
+
+
+.littleaboutmyself h2{
+    margin-top: 1.125em;
+    margin-bottom: 1.125em;
+    margin-left: 0.625em;
+}
+
+.littleaboutmyself p{
+    margin-left: 1.125em;
+    margin-right: 1.125em;
+    text-align: justify;
+}
+
