@@ -211,3 +211,31 @@ header {
     width: 5em;
     height: 2.5em;
 }
+
+/* main */  /*UI/UX DESIGN */
+
+.icons-1 img{
+    margin-top: 3.438em;
+    width: 2.5em;
+    height: 1.5em;
+}
+
+.icons-2 img{
+    margin-top: 3.438em;
+    width: 2.5em;
+    height: 1.5em;
+}
+
+.icons-3 img{
+    margin-top: 3.438em;
+    width: 2.5em;
+    height: 1.5em;
+}
+
+.element-widget-app p{
+    margin-bottom: 1.875em;
+    text-align: center;
+    margin-left: 0.938em;
+    margin-right: 0.938em;
+    color:#95a5a6;
+}
