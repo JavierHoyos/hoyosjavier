@@ -239,3 +239,15 @@ header {
     margin-right: 0.938em;
     color:#95a5a6;
 }
+
+
+/* portfolio */
+
+.portfolio-01,
+.portfolio-02,
+.portfolio-03,
+.portfolio-04,
+.portfolio-05,
+.portfolio-06 {
+    margin: 20px;
+}
