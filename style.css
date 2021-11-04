@@ -152,3 +152,34 @@ header {
 .logo {
     height: 30px;
 }
+
+
+/*introductionyourself*/
+
+.introductionyourself{
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    margin-left: 1.125em;
+}
+
+.introductionyourself h2{
+    color: #fff ;
+    font-size: 1.063rem;
+    text-transform: uppercase;
+}
+
+.introductionyourself h1{
+    font-weight: lighter;
+    font-size: 2.813rem;
+}
+
+.introductionyourself .web{
+    text-transform: lowercase;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+.web{
+    padding-bottom: 1.875em;
+}
