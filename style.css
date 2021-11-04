@@ -619,3 +619,38 @@ header {
 }
 
 
+/*colors*/
+
+/*maquetador web*/
+
+.maquetador-web p{
+    margin-bottom: 1.875em;
+    text-align: center;
+    margin-left: 0.938em;
+    margin-right: 0.938em;
+    color:#95a5a6;
+}
+
+.maquetador-web h2{
+    color:#0097e6; 
+}
+
+
+
+/*modelador 3d*/
+
+.modelador-3d p{
+    margin-top: 1.875em;
+    margin-bottom: 1.875em;
+    text-align: center;
+    margin-left: 0.938em;
+    margin-right: 0.938em;
+    color:#95a5a6;
+}
+
+.modelador-3d h2{
+    color:#0097e6; 
+    margin-top: 4rem;
+}
+
+
